@@ -1,0 +1,31 @@
+
+# template 
+I want to add a new application to application Inventory as below
+Name : <Application Name>
+Description : <Application Description>
+Division : <Division the application belongs to>
+Sites : <Sites where the application deployed>
+Owner : <Owner of the application>
+Components : <Components of the application>
+Technology : <Technologies used by the application>
+Version : <Current version of the application>
+Effective Date : <When the application become effective>
+EOL : <End of life date of the application>
+Interface: <Systems this application has inteface with>
+Medium : <Interfacing medium>
+
+# Actual data
+I want to add a new application to application Inventory as below
+Name : Euclid
+Description : Euclid is a client referential system. All information pertaining to a client normally stored in Euclid application.
+Division : Product & Service
+Sites : CH, ASIA, EUROPE
+Owner : Hassan 
+Components : Batch:Batch 1, Batch 2, Batch 3 | Online: Online 1, Online 2, Online 3
+Technology : Java, COBOL, CFT, API, IBM MQ
+Version : 2.7.3
+Effective Date : Q1-2012
+EOL : Q4-2030
+Interface: Olympic, TrT, My Wealth
+Medium : Olympic:IBM MQ, TrT:API, My Wealth:API
+
