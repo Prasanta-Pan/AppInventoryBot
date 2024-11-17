@@ -164,24 +164,24 @@ role : assistant, content: BVE is on-boarded to WMIAM.
 role : user,
 content: I want to update XMS application with below information
 Description : XMS currently execute orders in market but will be replaced by othe product very soon
-Application Owner : Jasmine CHEN
+Application Owner : Prasanta
 
 role : assistant,
 content: Execute below SQL(s) and return me the result(s)
 ### SQL ###
 UPDATE application_inventory 
-SET Description = 'XMS currently executes orders in the market but will be replaced by another product very soon', Owner = 'Jasmine CHEN' 
+SET Description = 'XMS currently executes orders in the market but will be replaced by another product very soon', Owner = 'Prasanta CHEN' 
 WHERE Name COLLATE NOCASE = 'XMS';
 
 role : user, content: 
 Please find the database execution resutls of the above generated SQL(s) below
 ### SQL ###
 UPDATE application_inventory 
-SET Description = 'XMS currently executes orders in the market but will be replaced by another product very soon', Owner = 'Jasmine CHEN' 
+SET Description = 'XMS currently executes orders in the market but will be replaced by another product very soon', Owner = 'Prasanta CHEN' 
 WHERE Name COLLATE NOCASE = 'XMS';
 ### Result ####
 UPDATE OK, 1 row affected
 
 role : assistant, content: XMS application is updated with below information
 Description : XMS currently execute orders in market but will be replaced by othe product very soon
-Application Owner : Jasmine CHEN
+Application Owner : Prasanta CHEN

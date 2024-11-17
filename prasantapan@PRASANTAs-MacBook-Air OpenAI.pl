@@ -9,11 +9,11 @@ Existing database 'app_data.db' deleted.
 Database connection initialized and cached.
 Startup script executed successfully.
 Sample data loaded successfully. Here are some records:
-('XMS', 'An order execution and management system', 'Product & Execution', 'CH,EUROPE,ASIA', 'PICAT Cyril', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '2.6.3', 'Q2-2001', 'Q4-2028', 'Predetor, TrT, Olympic', 'Predetor:MQ, TrT:MQ, Olympic:API, Market:API')
-('Predetor', 'Execute order in market', 'Product & Execution', 'CH,EUROPE', 'Jasmine', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 11, API, DB2', '1.6.3', 'Q1-2015', 'Q1-2028', 'XMS, Market', 'XMS:API, Market:API')
+('XMS', 'An order execution and management system', 'Product & Execution', 'CH,EUROPE,ASIA', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '2.6.3', 'Q2-2001', 'Q4-2028', 'Predetor, TrT, Olympic', 'Predetor:MQ, TrT:MQ, Olympic:API, Market:API')
+('Predetor', 'Execute order in market', 'Product & Execution', 'CH,EUROPE', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 11, API, DB2', '1.6.3', 'Q1-2015', 'Q1-2028', 'XMS, Market', 'XMS:API, Market:API')
 ('BE', 'Instrument referential system', 'Product & Execution', 'ASIA', 'Rajesh', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'COBOL, IBM MQ, DB2', '2.2.1', 'Q1-2001', 'Q1-2028', 'XMS, AAA, TRT, Olympic', 'XMS:MQ, TrT:MQ, Olympic:API, AAA:API')
 ('AAA', 'Client portfolio management', 'Product & Execution', 'ASIA, EUROPE', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java, C++, ActiveMQ, CFT, API, Spring Batch', '3.2.0', 'Q1-2015', 'Q2-2030', 'Olympic, XMS, TrT', 'XMS:ActiveMQ, TrT:ActiveMQ, Olympic:API')
-('My Wealth', 'Wealth Banking for customer', 'Customer Experince (CX)', 'Europe', 'Jasmine', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '4.2.0', 'Q-2001', 'Q3-2030', 'AAA, Olympic, XMS', 'XMS:ActiveMQ, AAA:API, Olympic:API')
+('My Wealth', 'Wealth Banking for customer', 'Customer Experince (CX)', 'Europe', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '4.2.0', 'Q-2001', 'Q3-2030', 'AAA, Olympic, XMS', 'XMS:ActiveMQ, AAA:API, Olympic:API')
  * Debugger is active!
  * Debugger PIN: 145-242-548
 ^C%                                                                                                            prasantapan@PRASANTAs-MacBook-Air OpenAITraining % clear
@@ -26,11 +26,11 @@ Existing database 'app_data.db' deleted.
 Database connection initialized and cached.
 Startup script executed successfully.
 Sample data loaded successfully. Here are some records:
-('XMS', 'An order execution and management system', 'Product & Execution', 'CH,EUROPE,ASIA', 'PICAT Cyril', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '2.6.3', 'Q2-2001', 'Q4-2028', 'Predetor, TrT, Olympic', 'Predetor:MQ, TrT:MQ, Olympic:API, Market:API')
-('Predetor', 'Execute order in market', 'Product & Execution', 'CH,EUROPE', 'Jasmine', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 11, API, DB2', '1.6.3', 'Q1-2015', 'Q1-2028', 'XMS, Market', 'XMS:API, Market:API')
+('XMS', 'An order execution and management system', 'Product & Execution', 'CH,EUROPE,ASIA', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '2.6.3', 'Q2-2001', 'Q4-2028', 'Predetor, TrT, Olympic', 'Predetor:MQ, TrT:MQ, Olympic:API, Market:API')
+('Predetor', 'Execute order in market', 'Product & Execution', 'CH,EUROPE', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 11, API, DB2', '1.6.3', 'Q1-2015', 'Q1-2028', 'XMS, Market', 'XMS:API, Market:API')
 ('BE', 'Instrument referential system', 'Product & Execution', 'ASIA', 'Rajesh', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'COBOL, IBM MQ, DB2', '2.2.1', 'Q1-2001', 'Q1-2028', 'XMS, AAA, TRT, Olympic', 'XMS:MQ, TrT:MQ, Olympic:API, AAA:API')
 ('AAA', 'Client portfolio management', 'Product & Execution', 'ASIA, EUROPE', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java, C++, ActiveMQ, CFT, API, Spring Batch', '3.2.0', 'Q1-2015', 'Q2-2030', 'Olympic, XMS, TrT', 'XMS:ActiveMQ, TrT:ActiveMQ, Olympic:API')
-('My Wealth', 'Wealth Banking for customer', 'Customer Experince (CX)', 'Europe', 'Jasmine', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '4.2.0', 'Q-2001', 'Q3-2030', 'AAA, Olympic, XMS', 'XMS:ActiveMQ, AAA:API, Olympic:API')
+('My Wealth', 'Wealth Banking for customer', 'Customer Experince (CX)', 'Europe', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '4.2.0', 'Q-2001', 'Q3-2030', 'AAA, Olympic, XMS', 'XMS:ActiveMQ, AAA:API, Olympic:API')
  * Serving Flask app 'AppInventoryBot'
  * Debug mode: on
 WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
@@ -44,11 +44,11 @@ Existing database 'app_data.db' deleted.
 Database connection initialized and cached.
 Startup script executed successfully.
 Sample data loaded successfully. Here are some records:
-('XMS', 'An order execution and management system', 'Product & Execution', 'CH,EUROPE,ASIA', 'PICAT Cyril', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '2.6.3', 'Q2-2001', 'Q4-2028', 'Predetor, TrT, Olympic', 'Predetor:MQ, TrT:MQ, Olympic:API, Market:API')
-('Predetor', 'Execute order in market', 'Product & Execution', 'CH,EUROPE', 'Jasmine', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 11, API, DB2', '1.6.3', 'Q1-2015', 'Q1-2028', 'XMS, Market', 'XMS:API, Market:API')
+('XMS', 'An order execution and management system', 'Product & Execution', 'CH,EUROPE,ASIA', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '2.6.3', 'Q2-2001', 'Q4-2028', 'Predetor, TrT, Olympic', 'Predetor:MQ, TrT:MQ, Olympic:API, Market:API')
+('Predetor', 'Execute order in market', 'Product & Execution', 'CH,EUROPE', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 11, API, DB2', '1.6.3', 'Q1-2015', 'Q1-2028', 'XMS, Market', 'XMS:API, Market:API')
 ('BE', 'Instrument referential system', 'Product & Execution', 'ASIA', 'Rajesh', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'COBOL, IBM MQ, DB2', '2.2.1', 'Q1-2001', 'Q1-2028', 'XMS, AAA, TRT, Olympic', 'XMS:MQ, TrT:MQ, Olympic:API, AAA:API')
 ('AAA', 'Client portfolio management', 'Product & Execution', 'ASIA, EUROPE', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java, C++, ActiveMQ, CFT, API, Spring Batch', '3.2.0', 'Q1-2015', 'Q2-2030', 'Olympic, XMS, TrT', 'XMS:ActiveMQ, TrT:ActiveMQ, Olympic:API')
-('My Wealth', 'Wealth Banking for customer', 'Customer Experince (CX)', 'Europe', 'Jasmine', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '4.2.0', 'Q-2001', 'Q3-2030', 'AAA, Olympic, XMS', 'XMS:ActiveMQ, AAA:API, Olympic:API')
+('My Wealth', 'Wealth Banking for customer', 'Customer Experince (CX)', 'Europe', 'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3\nOnline: Online 1, Online 2, Online 3', 'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '4.2.0', 'Q-2001', 'Q3-2030', 'AAA, Olympic, XMS', 'XMS:ActiveMQ, AAA:API, Olympic:API')
  * Debugger is active!
  * Debugger PIN: 145-242-548
 127.0.0.1 - - [02/Nov/2024 15:43:17] "GET /chat HTTP/1.1" 200 -
@@ -107,10 +107,10 @@ Message 4: user - Please find the database execution resutls as below
 ### SQL ###
 SELECT Owner FROM application_inventory WHERE Name COLLATE NOCASE = 'Predetor';
 ### Result ###
-Owner :=> "Jasmine"
+Owner :=> "Prasanta"
 
 
-Message 5: assistant - The owner of the application Predetor is Jasmine.
+Message 5: assistant - The owner of the application Predetor is Prasanta.
 127.0.0.1 - - [02/Nov/2024 15:44:28] "POST /chatbot HTTP/1.1" 200 -
 Conversation history:
 

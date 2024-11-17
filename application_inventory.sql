@@ -21,7 +21,7 @@ CREATE TABLE application_inventory (
     ) VALUES (
         'XMS', 'An order execution and management system', 
         'Product & Execution', 'CH,EUROPE,ASIA', 
-        'PICAT Cyril', 'Batch: Batch 1, Batch 2, Batch 3 | 
+        'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3 | 
 Online: Online 1, Online 2, Online 3', 
         'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '2.6.3', 
         'Q2-2001', 'Q4-2028', 
@@ -35,7 +35,7 @@ Online: Online 1, Online 2, Online 3',
     ) VALUES (
         'Predator', 'Execute order in market', 
         'Product & Execution', 'CH,EUROPE', 
-        'Jasmine', 'Batch: Batch 1, Batch 2, Batch 3 | 
+        'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3 | 
 Online: Online 1, Online 2, Online 3', 
         'Java 11, API, DB2', '1.6.3', 
         'Q1-2015', 'Q1-2028', 
@@ -77,7 +77,7 @@ Online: Online 1, Online 2, Online 3',
     ) VALUES (
         'My Wealth', 'Wealth Banking for customer', 
         'Customer Experince (CX)', 'Europe', 
-        'Jasmine', 'Batch: Batch 1, Batch 2, Batch 3 | 
+        'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3 | 
 Online: Online 1, Online 2, Online 3', 
         'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '4.2.0', 
         'Q-2001', 'Q3-2030', 
