@@ -19,16 +19,15 @@ CREATE TABLE application_inventory (
         Name, Description, Division, Sites, Owner, Components,
         Technology, Version, Effective_Date, EOL, Interface, Medium
     ) VALUES (
-        'XMS', 'An order execution and management system', 
+        'VMS', 'An order execution and management system', 
         'Product & Execution', 'CH,EUROPE,ASIA', 
         'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3 | 
 Online: Online 1, Online 2, Online 3', 
         'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '2.6.3', 
         'Q2-2001', 'Q4-2028', 
-        'Predator, BVE, AAA', 'Predator:IBM MQ, BVE:IBM MQ, AAA:IBM MQ'
+        'Predator, SVE, AAA', 'Predator:IBM MQ, SVE:IBM MQ, AAA:IBM MQ'
     );
     
-
     INSERT INTO application_inventory (
         Name, Description, Division, Sites, Owner, Components,
         Technology, Version, Effective_Date, EOL, Interface, Medium
@@ -39,7 +38,7 @@ Online: Online 1, Online 2, Online 3',
 Online: Online 1, Online 2, Online 3', 
         'Java 11, API, DB2', '1.6.3', 
         'Q1-2015', 'Q1-2028', 
-        'XMS, BVE', 'XMS:IBM MQ, BVE:IBM MQ'
+        'VMS, SVE', 'VMS:IBM MQ, SVE:IBM MQ'
     );
     
 
@@ -47,13 +46,13 @@ Online: Online 1, Online 2, Online 3',
         Name, Description, Division, Sites, Owner, Components,
         Technology, Version, Effective_Date, EOL, Interface, Medium
     ) VALUES (
-        'BVE', 'Instrument referential system', 
+        'SVE', 'Instrument referential system', 
         'Product & Execution', 'ASIA', 
-        'E Rajesh', 'Batch: Batch 1, Batch 2, Batch 3 | 
+        'Rajesh', 'Batch: Batch 1, Batch 2, Batch 3 | 
 Online: Online 1, Online 2, Online 3', 
         'COBOL, IBM MQ, DB2', '2.2.1', 
         'Q1-2001', 'Q1-2028', 
-        'XMS, Predator, My Wealth', 'XMS:IBM MQ, Predator:IBM MQ, My Wealth:IBM MQ'
+        'VMS, Predator, My Wealth', 'VMS:IBM MQ, Predator:IBM MQ, My Wealth:IBM MQ'
     );
     
 
@@ -67,7 +66,7 @@ Online: Online 1, Online 2, Online 3',
 Online: Online 1, Online 2, Online 3', 
         'Java, C++, ActiveMQ, CFT, API, Spring Batch', '3.2.0', 
         'Q1-2015', 'Q2-2030', 
-        'XMS, My Wealth,WMIAM', 'XMS:IBM MQ, My Wealth:API, WMIAM:SSO'
+        'VMS, My Wealth,IAM', 'VMS:IBM MQ, My Wealth:API, IAM:SSO'
     );
     
 
@@ -81,7 +80,7 @@ Online: Online 1, Online 2, Online 3',
 Online: Online 1, Online 2, Online 3', 
         'Java 8, spring batch, API, IBM MQ, CFT, Postgres', '4.2.0', 
         'Q-2001', 'Q3-2030', 
-        'AAA,BVE, WMIAM', 'XMS:IBM MQ, AAA:API, BVE:IBM MQ,WMIAM:OAuth 2.0'
+        'AAA,SVE, IAM', 'VMS:IBM MQ, AAA:API, SVE:IBM MQ,IAM:OAuth 2.0'
     );
     
 
@@ -89,7 +88,7 @@ Online: Online 1, Online 2, Online 3',
         Name, Description, Division, Sites, Owner, Components,
         Technology, Version, Effective_Date, EOL, Interface, Medium
     ) VALUES (
-        'WMIAM', 'Auth platform to support customer authentication and Authorization', 
+        'IAM', 'Auth platform to support customer authentication and Authorization', 
         'Engineering', 'Europe, ASIA, CH', 
         'Prasanta', 'Batch: Batch 1, Batch 2, Batch 3 | 
 Online: Online 1, Online 2, Online 3', 

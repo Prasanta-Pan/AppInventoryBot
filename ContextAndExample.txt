@@ -46,7 +46,7 @@ Please find the database execution resutls of the above generated SQL(s) below
 ### SQL ###
 SELECT Sites, Name FROM application_inventory WHERE Sites LIKE '%asia%';
 ### Result ###
-Sites :=> "europe,ch,asia", Name :=> "XMS"
+Sites :=> "europe,ch,asia", Name :=> "VMS"
 Sites :=> "europe,ch", Name :=> "Predator"
 Sites :=> "asia", Name :=> "My Wealth"
 
@@ -56,132 +56,132 @@ role : assistant, content: Currently My Wealth application exclusively available
 ##### Example conversation 2 ######
 
 role : user,
-content: How many batch components we have in XMS ?
+content: How many batch components we have in VMS ?
 
 role : assistant,
 content: Execute below SQL(s) and return me the result(s)
 ### SQL ###
 SELECT Components FROM application_inventory 
 WHERE Components LIKE '%batch%' COLLATE NOCASE 
-AND Name = 'XMS' COLLATE NOCASE;"
+AND Name = 'VMS' COLLATE NOCASE;"
 
 role : user, content: 
 Please find the database execution resutls of the above generated SQL(s) below
 ### SQL ###
 SELECT Components FROM application_inventory 
 WHERE Components LIKE '%batch%' COLLATE NOCASE 
-AND Name = 'XMS' COLLATE NOCASE;
+AND Name = 'VMS' COLLATE NOCASE;
 ### Result ####
 Components :=> "Batch: Batch 1, Batch 2, Batch 3 | Online: Online 1, Online 2, Online 3"
 
-role : assistant, content: XMS has 3 batch components Batch 1, Batch 2, Batch 3
+role : assistant, content: VMS has 3 batch components Batch 1, Batch 2, Batch 3
 
 ##### Example conversation 3 ######
 
 role : user,
-content: Which applications XMS interfacing to ? and what are the communication medium?
+content: Which applications VMS interfacing to ? and what are the communication medium?
 
 role : assistant,
 content: Execute below SQL(s) and return me the result(s)
 ### SQL ###
 SELECT Interface, Medium FROM application_inventory 
-WHERE Name COLLATE NOCASE = 'XMS';
+WHERE Name COLLATE NOCASE = 'VMS';
 
 role : user, content: 
 Please find the database execution resutls of the above generated SQL(s) below
 ### SQL ###
 SELECT Interface, Medium FROM application_inventory 
-WHERE Name COLLATE NOCASE = 'XMS';
+WHERE Name COLLATE NOCASE = 'VMS';
 ### Result ####
-Interface :=> "Predator, TrT, Olympic"
-Medium :=> "Predator:IBM MQ, TrT:IBM MQ, Olympic:API"
+Interface :=> "Predator, TnT, Olympic"
+Medium :=> "Predator:IBM MQ, TnT:IBM MQ, Olympic:API"
 
-role : assistant, content: XMS currently interfacing with Predator and TrT using IBM MQ channel and Olympic via API.
+role : assistant, content: VMS currently interfacing with Predator and TnT using IBM MQ channel and Olympic via API.
 
 ##### Example conversation 4 ######
 
 role : user,
-content: What are the applications on-boarded to WMIAM so far ?
+content: What are the applications on-boarded to IAM so far ?
 
 role : assistant,
 content: Execute below SQL(s) and return me the result(s)
 ### SQL ###
 SELECT Name FROM application_inventory 
-WHERE Name <> 'WMIAM' COLLATE NOCASE AND Interface LIKE '%WMIAM%' COLLATE NOCASE;
+WHERE Name <> 'IAM' COLLATE NOCASE AND Interface LIKE '%IAM%' COLLATE NOCASE;
 
 role : user, content: 
 Please find the database execution resutls of the above generated SQL(s) below
 ### SQL ###
 SELECT Name FROM application_inventory 
-WHERE Name <> 'WMIAM' COLLATE NOCASE AND Interface LIKE '%WMIAM%' COLLATE NOCASE;
+WHERE Name <> 'IAM' COLLATE NOCASE AND Interface LIKE '%IAM%' COLLATE NOCASE;
 
 ### Result ####
-Name :=> "XMS"
+Name :=> "VMS"
 Name :=> "AAA"
 
-role : assistant, content: XMS & AAA onboarded to WMIAM so far.
+role : assistant, content: VMS & AAA onboarded to IAM so far.
 
 ##### Example conversation 5 ######
 
 role : user,
-content: Please on-board BVE to WMIAM
+content: Please on-board SVE to IAM
 
 role : assistant,
 content: Execute below SQL(s) and return me the result(s)
 
 ### SQL ###
 UPDATE application_inventory
-SET Interface = Interface || ',' || 'WMIAM'
-WHERE Name = 'BVE' COLLATE NOCASE;
+SET Interface = Interface || ',' || 'IAM'
+WHERE Name = 'SVE' COLLATE NOCASE;
 
 ### SQL ###
 UPDATE application_inventory
-SET Interface = Interface || ',' || 'BVE'
-WHERE Name = 'WMIAM' COLLATE NOCASE;
+SET Interface = Interface || ',' || 'SVE'
+WHERE Name = 'IAM' COLLATE NOCASE;
 
 role : user, content: 
 Please find the database execution resutls of the above generated SQL(s) below
 ### SQL ###
 UPDATE application_inventory
-SET Interface = Interface || ',' || 'WMIAM'
-WHERE Name = 'BVE' COLLATE NOCASE;
+SET Interface = Interface || ',' || 'IAM'
+WHERE Name = 'SVE' COLLATE NOCASE;
 
 ### Result ####
 UPDATE OK, 1 row affected
 
 ### SQL ###
 UPDATE application_inventory
-SET Interface = Interface || ',' || 'BVE'
-WHERE Name = 'WMIAM' COLLATE NOCASE;
+SET Interface = Interface || ',' || 'SVE'
+WHERE Name = 'IAM' COLLATE NOCASE;
 
 ### Result ####
 UPDATE OK, 1 row affected
 
-role : assistant, content: BVE is on-boarded to WMIAM.
+role : assistant, content: SVE is on-boarded to IAM.
 
 ##### Example conversation 6 ######
 
 role : user,
-content: I want to update XMS application with below information
-Description : XMS currently execute orders in market but will be replaced by othe product very soon
+content: I want to update VMS application with below information
+Description : VMS currently execute orders in market but will be replaced by othe product very soon
 Application Owner : Prasanta
 
 role : assistant,
 content: Execute below SQL(s) and return me the result(s)
 ### SQL ###
 UPDATE application_inventory 
-SET Description = 'XMS currently executes orders in the market but will be replaced by another product very soon', Owner = 'Prasanta CHEN' 
-WHERE Name COLLATE NOCASE = 'XMS';
+SET Description = 'VMS currently executes orders in the market but will be replaced by another product very soon', Owner = 'Prasanta PAN' 
+WHERE Name COLLATE NOCASE = 'VMS';
 
 role : user, content: 
 Please find the database execution resutls of the above generated SQL(s) below
 ### SQL ###
 UPDATE application_inventory 
-SET Description = 'XMS currently executes orders in the market but will be replaced by another product very soon', Owner = 'Prasanta CHEN' 
-WHERE Name COLLATE NOCASE = 'XMS';
+SET Description = 'VMS currently executes orders in the market but will be replaced by another product very soon', Owner = 'Prasanta PAN' 
+WHERE Name COLLATE NOCASE = 'VMS';
 ### Result ####
 UPDATE OK, 1 row affected
 
-role : assistant, content: XMS application is updated with below information
-Description : XMS currently execute orders in market but will be replaced by othe product very soon
-Application Owner : Prasanta CHEN
+role : assistant, content: VMS application is updated with below information
+Description : VMS currently execute orders in market but will be replaced by othe product very soon
+Application Owner : Prasanta PAN
